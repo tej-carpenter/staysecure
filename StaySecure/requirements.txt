@@ -1,0 +1,4 @@
+# StaySecure project requirements
+# This project is primarily a Node.js application.
+# No Python runtime dependencies are required for the web app itself.
+# Add any Python-based tooling or automation dependencies here as needed.

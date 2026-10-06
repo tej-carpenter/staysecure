@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --calcite-charcoal: #3C4044;
+  --calcite-orange: #FD7B41;
+  --calcite-peach: #EDBF9B;
+  --calcite-gray: #DDDCDB;
+  --calcite-white: #FFFFFF;
+  --calcite-surface: #F5F3F1;
+  --calcite-shadow: rgba(60, 64, 68, 0.12);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background: var(--calcite-gray);
+  color: var(--calcite-charcoal);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(253, 123, 65, 0.2);
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--calcite-orange) !important;
+  box-shadow: 0 0 0 3px rgba(253, 123, 65, 0.15);
+}
+
+.card-surface {
+  background: var(--calcite-white);
+  border: 1px solid rgba(221, 220, 219, 0.9);
+  box-shadow: 0 12px 30px rgba(60, 64, 68, 0.06);
+}
+
+.primary-btn {
+  background: var(--calcite-orange);
+  color: var(--calcite-white);
+  border: 1px solid var(--calcite-orange);
+  transition: all 0.2s ease;
+}
+
+.primary-btn:hover {
+  background: #f56d34;
+  border-color: #f56d34;
+}
+
+.secondary-btn {
+  background: var(--calcite-peach);
+  color: var(--calcite-charcoal);
+  border: 1px solid rgba(237, 191, 155, 0.8);
+  transition: all 0.2s ease;
+}
+
+.secondary-btn:hover {
+  background: #e8b28c;
+}
+
+.section-panel {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid var(--calcite-gray);
+  box-shadow: 0 8px 22px rgba(60, 64, 68, 0.04);
+}

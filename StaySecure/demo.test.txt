@@ -1,0 +1,8 @@
+CUSTOMER:      customer+demo@example.com
+ADMIN:         admin+demo@example.com  
+RECEPTIONIST:  reception+demo@example.com
+APPROVAL MGR:  approval+demo@example.com
+ACCOUNTANT:    accountant+demo@example.com
+ROOM MGR      roommanager+demo@example.com
+
+Password for all: TempPassword123!
